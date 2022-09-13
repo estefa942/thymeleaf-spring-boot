@@ -7,20 +7,19 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/student")
 public class StudentController {
 
     @Autowired
     private StudentService studentService;
 
-    @GetMapping
+    /*@GetMapping
     public List<Student> getUsers(){
         return studentService.getAllStudents();
-    }
+    }*/
 
-    @PostMapping
+    /*@PostMapping
     public Student createUser(@RequestBody Student student){
         return studentService.createUser(student);
-    }
+    }*/
 
 }
